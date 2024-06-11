@@ -19,3 +19,40 @@ h1,h2,h3,h4,h5,h6{
   font-family: 'Alumni Sans Inline One', sans-serif;
   font-weight: normal;
 }
+.container-titulo{
+background-color: black;
+padding: 0.5em 1em;
+position: relative;
+display: flex; 
+flex-direction: row;
+
+}
+
+.titulo{
+color: white;
+margin: 0px;
+flex-grow: 1;
+
+}
+
+
+h1.title-login{
+background-color: blue;
+  
+}
+
+h1.title-text{
+  background-color: blue;
+    
+  }
+
+#cards{
+height: 100;
+background-color: rgb(167, 170, 171);
+width: 100;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+padding: 20px;
+}
+
