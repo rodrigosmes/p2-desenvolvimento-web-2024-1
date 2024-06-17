@@ -16,3 +16,5 @@ async function fetchData() {
 
 fetchData()
     .catch(error => console.error(error))
+
+    

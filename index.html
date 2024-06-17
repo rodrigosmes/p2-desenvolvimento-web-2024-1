@@ -5,17 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="./img/escudo.png" sizes="16x16">
   <title>Atletas Botafogo</title>
-  <link rel="stylesheet" href = "./estilo.css">
-  <script src="./js/autenticacao.js" defer></script>
+  <link rel="stylesheet" href = "./css/index.css">
+  <script type ='module'src="./js/autenticacao.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div>
-    <h1 class ="title-login">Atletas do Botafogo em 2024-1</h1>
-    <h1 class = "text-login">Criado com objetivos exclusivamente didáticos para a disciplina Desenvolvimento Web do Ibmec Rio.</h1>
-    <p></p>
+  <div id="container">
+    <div id="foto">
+      <img src="./img/botafogofoto.jpg" alt="Botafogo">
+    </div>
+  <div id="title">
+    <h1 id="h1">Atletas do Botafogo em 2024-1</h1>
+    <h1 id = "p1">Criado com objetivos exclusivamente didáticos para a disciplina Desenvolvimento Web do Ibmec Rio.</h1>
+    <p>Aluno: Rodrigo Silveira Moraes e Souza</p>
+  
+  <form id="passwordcontainer">
+    <input type="password" id="inputpassword" placeholder= "Digite sua senha">
+    <button id="entrar">Entrar</button>
+  </form>
+  <p class = "login" id="message"></p>
+  <p>Efetue login com a senha:  BOTAFOGO</p>
   </div>
-  <input id = "senha">
-    <button id="login"> entrar</button> 
-      <p class = "password-login">Efetue login com a senha: senha</p>
 </body>
 </html>
