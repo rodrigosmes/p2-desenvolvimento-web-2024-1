@@ -15,7 +15,11 @@ h1,h2,p,a{
   }
 
 
-.btn{
+.btn#voltar{
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
     background-color: rgb(240, 240, 240);
     color: black;
     border: 2px solid gray;
