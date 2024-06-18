@@ -73,7 +73,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #inputpassword:focus {
-  border-color: gold; 
+  border-color: gray; 
 }
 
 #entrar {
@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #entrar:hover {
-  background-color: gold;
+  background-color: gray;
   color: #fff;
   border-color: rgb(0, 0, 0); 
 }

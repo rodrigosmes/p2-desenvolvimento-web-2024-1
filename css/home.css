@@ -56,6 +56,19 @@ body {
     font-size: 14px;
   }
 
+a{
+    color: #ffffff;
+}
+.card{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+
 
 #cards {
     
