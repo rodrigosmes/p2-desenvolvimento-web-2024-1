@@ -3,19 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="/escudo.png" sizes="16x16">
-  <title>Atletas Botafogo de Futebol e Regatas<</title>
+  <link rel="icon" type="image/png" href="./img/escudo.png" sizes="16x16">
+  <title>Atletas Botafogo</title>
   <link rel="stylesheet" href = "./css/home.css">
-  
-</head>
+  <script type ='module'src="./js/autenticacao.js" defer></script>
 
+  <script src = "./js/jogadores2024.js" defer></script> 
+</head>
 <body>
+  <div>
     <header class = "container-titulo">
-      <h1 class="titulo">Atletas Botafogo 2024-1</h1>
+      <h1 class="titulo">Atletas Profissionais Botafogo 2024.1</h1>
+      <button class = "btn" id = "masculino">Masculino</button>
+      <button class = "btn"  id = "feminino">Feminino</button>
+      <button class = "btn" id = "completo">Elenco Completo</button>
+      <input id = "pesquisa" placeholder = "Pesquise o Jogador.">
+      <button class = "btn" id = "sair">Sair</button>
     </header>
-      <nav id = "buttongroup"></nav>      
-    <div id="cards"></div>
-    <script src = "./js/jogadores2024.js" defer></script>
+    <div id="cards">
+    </div>
+  </div>
 </body>
 </html>
 
